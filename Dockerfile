@@ -3,13 +3,13 @@ FROM resin/rpi-raspbian:latest
 MAINTAINER Bruno Cardoso Cantisano <bruno.cantisano@gmail.com>
 
 ENV DEBIAN_FRONTEND=noninteractive \
-    nagios=nagios-4.1.1 \
-    livestatusversion=1.2.6p16 \
-    nagiosplugins=nagios-plugins-2.1.1 \
-    nagvis=nagvis-1.8.5 \
+    nagios=nagios-4.4.1 \
+    livestatusversion=1.2.8p18 \
+    nagiosplugins=nagios-plugins-2.2.1 \
+    nagvis=nagvis-1.9.8 \
     nagiosgraphversion=1.5.2 \
-    nrpeversion=nrpe-2.15 \
-    ndoutilsversion=1.5.2 \
+    nrpeversion=nrpe-3.2.0 \
+    ndoutilsversion=2.1.3 \
     portainerpage=0.0.0.0:9400 \
     centreonpage=0.0.0.0:9401 \
     dokuwikipage=0.0.0.0:9402 \
