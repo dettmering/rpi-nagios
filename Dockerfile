@@ -1,7 +1,5 @@
 FROM resin/rpi-raspbian:latest
 
-MAINTAINER Bruno Cardoso Cantisano <bruno.cantisano@gmail.com>
-
 ENV DEBIAN_FRONTEND=noninteractive \
     nagios=nagios-4.4.1 \
     livestatusversion=1.2.8p18 \
